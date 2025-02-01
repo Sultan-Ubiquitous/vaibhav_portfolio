@@ -1,4 +1,4 @@
-import React from 'react'
+import Link from "next/link"
 
 export default function page() {
   return (
@@ -69,7 +69,7 @@ export default function page() {
         <div className="w-[347.55px] h-[347.55px] left-[-1.26px] top-0 absolute">
             <div className="w-[347.55px] h-[347.55px] left-0 top-0 absolute bg-[#f7f04b]/75" />
             <div className="w-[241.39px] h-[36.07px] left-[50.55px] top-[141.55px] absolute text-center text-[#222023] text-[27.39px] font-semibold font-['Inter']">MORE PROJECTS</div>
-            <div className="w-[288.15px] h-[59.40px] left-[30.33px] top-[190.84px] absolute text-center text-[#373737] text-[42.02px] font-semibold font-['Inter'] underline">CLICK ME</div>
+            <div className="w-[288.15px] h-[59.40px] left-[30.33px] top-[190.84px] absolute text-center text-[#373737] text-[42.02px] font-semibold font-['Inter'] underline"><Link href={'https://drive.google.com/drive/folders/1yDFuqvTv3SMOxr4ztWPDzSAEXBaWRTBL'}>CLICK ME</Link></div>
         </div>
     </div>
     <div className="w-[898.54px] h-[127.68px] left-[730.74px] top-[1672.60px] absolute">
